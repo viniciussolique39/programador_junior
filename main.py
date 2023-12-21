@@ -1,7 +1,10 @@
-lista_numeros = [1, 2, 3]
+salario = float(input("informe o salário:"))
 
-lista_numeros[0] = 5
-
-print(lista_numeros[0])
-print(lista_numeros[1])
-print(lista_numeros[2])
+if salario <= 3000:
+    print ("Programador junior")
+elif salario > 3000 and salario <= 6000:
+    print ("Programador pleno")
+elif salario > 6000 and salario <= 15000:
+    print ("Programador senior")
+else:
+    print ("Gerente de projetos")
